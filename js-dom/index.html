@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS DOM</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <script src="../bootstrap/js/bootstrap.bundle.js" defer></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../"><img src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_js_official_icon_130509.png" alt="js-logo" height="35">JS Almanaque</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../js-basico/">JS Básico</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../js-dom">JS DOM</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Navegação
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#implementacao">Implementação do JS</a></li>
+                  <li><a class="dropdown-item" href="#alert">Alert</a></li>
+                  <li><a class="dropdown-item" href="#prompt">Prompt</a></li>
+                  <li><a class="dropdown-item" href="#confirm">Confirm</a></li>
+                  <li><a class="dropdown-item" href="#write">Write</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <section id="implementacao" class="container-implementacao container-pai">
+        <div class="container">
+            <div class="container-implementacao-esquerda container-descricao">
+                <h2>Como escrever JavaScript no HTML?</h2>
+                <p>Para escrever código JavaScript no HTML, basta adicionar a tag script no final da tag body. Dentro da tag script, adicione o código que deseja executar.</p>
+            </div>
+            <div class="container-implementacao-direita container-img">
+            </div>
+
+        </div>
+    </section>
+    <section id="alert" class="container-alert container-pai">
+        <div class="container">
+            <div class="container-alert-esquerda container-img">
+            </div>
+            <div class="container-alert-direita container-descricao">
+                <h2>Alert</h2>
+                <p>
+                    O método alert() exibe uma caixa de alerta para o usuário. Dentro dos parênteses, pode-se passar uma mensagem que deseja mostrar.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="container-prompt container-pai" id="prompt">
+        <div class="container">
+            <div class="container-prompt-esquerda container-descricao">
+                <h2>Prompt</h2>
+                <p>
+                    O método prompt() exibe uma caixa de entrada para o usuário. Dentro dos parênteses, pode-se passar uma mensagem que deseja mostrar.
+                </p>
+            </div>
+            <div class="container-prompt-direita container-img">
+            </div>
+        </div>
+    </section>
+    <section class="container-confirm container-pai" id="confirm">
+        <div class="container">
+            <div class="container-confirm-esquerda container-img">
+            </div>
+            <div class="container-confirm-direita container-descricao">
+                <h2>Confirm</h2>
+                <p>
+                    O método confirm() exibe uma caixa de confirmação para o usuário. Dentro dos parênteses, pode-se passar uma mensagem que deseja mostrar.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="container-write container-pai" id="write">
+        <div class="container">
+            <div class="container-write-esquerda container-descricao">
+                <h2>document.write</h2>
+                <p>
+                    O método document.write() exibe uma mensagem no corpo do documento. Dentro dos parênteses, pode-se passar uma mensagem que deseja mostrar.
+                </p>
+            </div>
+            <div class="container-write-direita container-img">
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>Copyright © 2024. Todos os direitos reservados.</p>
+        <p>Desenvolvido por: <a href="https://github.com/devsilasfreitas">Silas Silva de Freitas</a> : )</p>
+    </footer>
+</body>
+</html>

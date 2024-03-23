@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Básico</title>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <script src="../bootstrap/js/bootstrap.bundle.js" defer></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../"><img src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_js_official_icon_130509.png" alt="js-logo" height="35">JS Almanaque</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="../js-basico/">JS Básico</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="../js-dom">JS DOM</a>
+                </li>
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Navegação
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#variaveis">Variaveis</a></li>
+                    <li><a class="dropdown-item" href="#operacoes">Operações matemáticas</a></li>
+                    <li><a class="dropdown-item" href="#estruturas-condicionais">Estruturas condicionais</a></li>
+                    <li><a class="dropdown-item" href="#estruturas-repeticao">Estruturas de repetição</a></li>
+                </ul>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <section id="variaveis" class="container-variaveis container-pai">
+        <h2>Variáveis em JavaScript</h2>
+        <p>Em JavaScript, existem três formas de declarar variáveis: var, let e const.</p>
+        <div>
+            <section id="var" class="container-var container">
+                <div class="container-var-direita container-descricao">
+                    <h2>var</h2>
+                    <p>A palavra-chave var era a forma original de declarar variáveis em JavaScript, mas possui algumas peculiaridades em relação ao escopo.</p>
+                </div>
+                <div class="container-var-esquerda container-img">
+                </div>
+            </section>
+            <section id="let" class="container-let container">
+                <div class="container-let-direita container-img">
+                </div>
+                <div class="container-let-esquerda container-descricao">
+                    <h2>let</h2>
+                    <p>A palavra-chave let permite que você declare variáveis com escopo de bloco, o que significa que elas são limitadas ao bloco, instrução ou expressão na qual são usadas.</p>
+                </div>
+            </section>
+            <section id="const" class="container-const container">
+                <div class="container">
+                    <div class="container-const-direita container-descricao">
+                        <h2>const</h2>
+                        <p>A palavra-chave const permite que você declare uma variável com um valor constante, que não pode ser alterado posteriormente.</p>
+                    </div>
+                    <div class="container-const-esquerda container-img">
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <section id="operacoes" class="container-operacao container-pai">
+        <h2>
+            Operações Matemáticas
+        </h2>
+        <p>Em JavaScript você pode realizar diversas operações matemáticas com variáveis.</p>
+        <div>
+            <section class="container">
+                <div class="container-img container-operacao-esquerda"></div>
+                <div class="container-descricao container-operacao-direita">
+                    <h2>
+                        Operacoes Matemáticas
+                    </h2>
+                    <p>+ => soma<br>- => subtração<br>* => multiplicação<br>/ => divisão<br>% => resto da divisao<br>++ => incremento<br>-- => decremento<br>** => potência</p>
+                </div>
+            </section>
+        </div>
+    </section>
+    <section id="estruturas-condicionais" class="container-condicional container-pai">
+        <h2>Estruturas Condicionais em JavaScript</h2>
+        <p>JavaScript oferece várias formas de criar estruturas condicionais para tomar decisões em seu código.</p>
+        <div>
+            <section id="if" class="container-if container">
+                <div class="container-if-esquerda container-descricao">
+                    <h2>if</h2>
+                    <p>A declaração if executa uma instrução se uma condição especificada for verdadeira.</p>
+                </div>
+                <div class="container-if-direita container-img">
+                </div>
+            </section>
+            <section id="switch" class="container-switch container">
+                <div class="container-switch-esquerda container-img">
+                </div>
+                <div class="container-switch-direita container-descricao">
+                    <h2>switch</h2>
+                    <p>A declaração switch avalia uma expressão, combinando o valor da expressão para um caso de cláusula e executa as instruções associadas ao caso.</p>
+                </div>
+            </section>
+        </div>
+    </section>
+    <section id="estruturas-repeticao" class="container-repeticao container-pai">
+        <h2>Estruturas de Repetição em JavaScript</h2>
+        <p>As estruturas de repetição em JavaScript são usadas para executar uma determinada parte do código várias vezes.</p>
+        <div>
+            <section id="while" class="container-while container">
+                <div class="container-while-esquerda container-descricao">
+                    <h2>while</h2>
+                    <p>A declaração while cria um loop que executa uma instrução especificada enquanto a condição especificada for avaliada como verdadeira.</p>
+                </div>
+            
+                <div class="container-while-direita container-img">
+                </div>
+            </section>
+            <section id="for" class="container-for container">
+                <div class="container-for-esquerda container-img">
+                </div>
+                <div class="container-for-direita container-descricao">
+                    <h2>for</h2>
+                    <p>A declaração for cria um loop que consiste em três expressões opcionais, dentro de parênteses e separadas por ponto e vírgula, seguidas por uma instrução a ser executada em loop.</p>
+                </div>
+            </section>
+        </div>
+    </section>
+    <footer>
+        <p>Copyright © 2024. Todos os direitos reservados.</p>
+        <p>Desenvolvido por: <a href="https://github.com/devsilasfreitas">Silas Silva de Freitas</a> : )</p>
+    </footer>
+</body>
+</html>

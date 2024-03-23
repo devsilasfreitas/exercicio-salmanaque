@@ -1,0 +1,176 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    max-width: 100vw;
+    color: white;
+}
+
+nav {
+    height: 7.5vh;
+}
+
+.container-topo {
+    max-width: 100vw;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+}
+
+.container-topo > * {
+    max-width: 100vw;
+}
+
+.container-inicio {
+    height: 92.5vh;
+}
+
+.container-pai {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.container-inicio > div {
+    width: 50%;
+}
+
+.container-inicio-esquerda {
+    background-image: url("../imgs/helloJSAlmanaque.png");
+}
+
+.container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-implementacao, .container-variaveis {
+    background-color: rgb(5, 1, 22);
+}
+
+.container-implementacao-direita {
+    background-image: url("../imgs/como-escrever-js.png");
+}
+
+.container-alert, .container-operacao {
+    background-color: rgb(12, 4, 46);
+}
+
+.container-alert-esquerda {
+    background-image: url("../imgs/alert.png");
+}
+
+.container-prompt, .container-condicional {
+    background-color: rgb(18, 7, 66);
+}
+
+.container-prompt-direita {
+    background-image: url("../imgs/prompt.png");
+}
+
+.container-confirm {
+    background-color: rgb(24, 9, 92);
+}
+
+.container-confirm-esquerda {
+    background-image: url("../imgs/confirm.png");
+}
+
+.container-write, .container-repeticao {
+    background-color: rgb(27, 13, 105);
+}
+
+.container-write-direita {
+    background-image: url("../imgs/write.png");
+}
+
+.container-var-esquerda {
+    background-image: url("../imgs/var.png");
+}
+
+.container-let-direita {
+    background-image: url("../imgs/let.png");
+}
+
+.container-const-esquerda {
+    background-image: url("../imgs/const.png");
+}
+
+.container-operacao-esquerda {
+    background-image: url("../imgs/operacoes.png");
+}
+
+.container-if-direita {
+    background-image: url("../imgs/if.png");
+}
+
+.container-switch-esquerda {
+    background-image: url("../imgs/switch.png");
+}
+
+.container-while-direita {
+    background-image: url("../imgs/while.png");
+}
+
+.container-for-esquerda {
+    background-image: url("../imgs/for.png");
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-img {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50%;
+    min-height: 400px;
+    border-radius: 30px;
+}
+
+.container-descricao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    max-width: 40%;
+    color: white;
+}
+
+.js-basico {
+    height: 70vh;
+    background-color: rgb(168, 168, 0);
+}
+
+.js-dom {
+    height: 70vh;
+    background-color: rgb(2, 50, 153);
+}
+
+.container-vertical-centered {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+}
+
+footer > p {
+    margin: 10px;
+}
