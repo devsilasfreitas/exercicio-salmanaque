@@ -55,11 +55,11 @@ nav {
 }
 
 .container-alert, .container-operacao {
-    background-color: rgb(19, 7, 71);
+    background-color: rgb(18, 7, 61);
 }
 
 .container-prompt, .container-logico {
-    background-color: rgb(18, 7, 66);
+    background-color: rgb(20, 7, 75);
 }
 
 .container-confirm, .container-condicional {
