@@ -41,34 +41,46 @@
             </div>
         </div>
     </nav>
+
+    <section class="container-pai container-vertical-centered container-introducao">
+        <h1>Introdução ao JavaScript</h1>
+        <p>
+            JavaScript é uma linguagem de script orientada a objetos e plataforma cruzada usada para tornar as páginas da Web interativas
+            (por exemplo, com animações complexas, botões clicáveis, menus pop-up etc.). Há também versões mais avançadas do lado do servidor
+            do JavaScript, como Node.js, que permitem adicionar mais funcionalidades a um site do que baixar arquivos (como colaboração em tempo
+            real entre vários computadores). Dentro de um ambiente de host (por exemplo, um navegador da Web), o JavaScript pode ser conectado aos
+            objetos de seu ambiente para fornecer controle programático sobre eles.
+        </p>
+
+    </section>
     
     <section id="variaveis" class="container-variaveis container-pai">
         <h2>Variáveis em JavaScript</h2>
         <p>Em JavaScript, existem três formas de declarar variáveis: var, let e const.</p>
         <div>
             <section id="var" class="container-var container">
+                <div class="container-var-esquerda container-img">
+                </div>
                 <div class="container-var-direita container-descricao">
                     <h2>var</h2>
                     <p>A palavra-chave var era a forma original de declarar variáveis em JavaScript, mas possui algumas peculiaridades em relação ao escopo.</p>
                 </div>
-                <div class="container-var-esquerda container-img">
-                </div>
             </section>
             <section id="let" class="container-let container">
-                <div class="container-let-direita container-img">
-                </div>
                 <div class="container-let-esquerda container-descricao">
                     <h2>let</h2>
                     <p>A palavra-chave let permite que você declare variáveis com escopo de bloco, o que significa que elas são limitadas ao bloco, instrução ou expressão na qual são usadas.</p>
                 </div>
+                <div class="container-let-direita container-img">
+                </div>
             </section>
             <section id="const" class="container-const container">
                 <div class="container">
+                    <div class="container-const-esquerda container-img">
+                    </div>
                     <div class="container-const-direita container-descricao">
                         <h2>const</h2>
                         <p>A palavra-chave const permite que você declare uma variável com um valor constante, que não pode ser alterado posteriormente.</p>
-                    </div>
-                    <div class="container-const-esquerda container-img">
                     </div>
                 </div>
             </section>
@@ -82,15 +94,40 @@
         <p>Em JavaScript você pode realizar diversas operações matemáticas com variáveis.</p>
         <div>
             <section class="container">
-                <div class="container-img container-operacao-esquerda"></div>
-                <div class="container-descricao container-operacao-direita">
-                    <h2>
-                        Operacoes Matemáticas
-                    </h2>
-                    <p>+ => soma<br>- => subtração<br>* => multiplicação<br>/ => divisão<br>% => resto da divisao<br>++ => incremento<br>-- => decremento<br>** => potência</p>
+                <div class="container-descricao container-operacao-esquerda"></div>
+                <h2>
+                    Operacoes Matemáticas
+                </h2>
+                <p>+ => soma<br>- => subtração<br>* => multiplicação<br>/ => divisão<br>% => resto da divisao<br>++ => incremento<br>-- => decremento<br>** => potência</p>
+                <div class="container-img container-operacao-direita">
                 </div>
             </section>
         </div>
+    </section>
+    <section id="logicas" class="container-logico container-pai">
+        <h2>Operadores Lógicos</h2>
+        <p>Em JavaScript, existem três operadores lógicos: && (AND), || (OR) e ! (NOT).</p>
+        <section class="container container-and">
+            <div class="container-img container-and-esquerda"></div>
+            <div class="container-descricao">
+                <h2>AND</h2>
+                <p>O operador AND (&&) verifica se as expressões passadas são verdadeiras, e caso todas sejam verdadeiras retorna verdadeiro.</p>
+            </div>
+        </section>
+        <section class="container container-or">
+            <div class="container-descricao">
+                <h2>OR</h2>
+                <p>O operador OR (||) verifica se as expressões passadas são verdadeiras, e caso pelo menos uma seja verdadeira retorna verdadeiro.</p>
+            </div>
+            <div class="container-img container-or-direita"></div>
+        </section>
+        <section class="container container-not">
+            <div class="container-img container-not-esquerda"></div>
+            <div class="container-descricao">
+                <h2>NOT</h2>
+                <p>O operador NOT (!) inverte o valor de uma expressão, então se uma expressão for verdadeira torna-a falsa e vice-versa.</p>
+            </div>
+        </section>
     </section>
     <section id="estruturas-condicionais" class="container-condicional container-pai">
         <h2>Estruturas Condicionais em JavaScript</h2>

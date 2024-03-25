@@ -6,6 +6,7 @@
 body {
     max-width: 100vw;
     color: white;
+    font-family: 'Poppins', sans-serif;
 }
 
 nav {
@@ -47,40 +48,78 @@ nav {
     align-items: center;
 }
 
+/* cores de fundo */
+
 .container-implementacao, .container-variaveis {
     background-color: rgb(5, 1, 22);
-}
-
-.container-implementacao-direita {
-    background-image: url("../imgs/como-escrever-js.png");
 }
 
 .container-alert, .container-operacao {
     background-color: rgb(12, 4, 46);
 }
 
+.container-prompt, .container-logico {
+    background-color: rgb(18, 7, 66);
+}
+
+.container-confirm, .container-condicional {
+    background-color: rgb(24, 9, 92);
+}
+
+.container-write, .container-repeticao {
+    background-color: rgb(27, 13, 105);
+}
+
+.container-introducao {
+    padding: 20vh 20vw;
+    gap: 50px;
+    line-height: 2rem;
+    font-size: large;
+    background-color: black;
+    height: 92.5vh;
+}
+
+
+/* imagens */
+
+.container-implementacao-direita {
+    background-image: url("../imgs/como-escrever-js.png");
+}
+
 .container-alert-esquerda {
     background-image: url("../imgs/alert.png");
 }
 
-.container-prompt, .container-condicional {
-    background-color: rgb(18, 7, 66);
+.container-implementacao-direita {
+    background-image: url("../imgs/como-escrever-js.png");
+}
+
+.container-alert-esquerda {
+    background-image: url("../imgs/alert.png");
+}
+
+.container-implementacao-direita {
+    background-image: url("../imgs/como-escrever-js.png");
+}
+
+.container-alert-esquerda {
+    background-image: url("../imgs/alert.png");
+}
+
+.container-implementacao-direita {
+    background-image: url("../imgs/como-escrever-js.png");
+}
+
+.container-alert-esquerda {
+    background-image: url("../imgs/alert.png");
 }
 
 .container-prompt-direita {
     background-image: url("../imgs/prompt.png");
 }
 
-.container-confirm {
-    background-color: rgb(24, 9, 92);
-}
-
 .container-confirm-esquerda {
     background-image: url("../imgs/confirm.png");
-}
-
-.container-write, .container-repeticao {
-    background-color: rgb(27, 13, 105);
 }
 
 .container-write-direita {
@@ -99,7 +138,7 @@ nav {
     background-image: url("../imgs/const.png");
 }
 
-.container-operacao-esquerda {
+.container-operacao-direita {
     background-image: url("../imgs/operacoes.png");
 }
 
@@ -117,6 +156,18 @@ nav {
 
 .container-for-esquerda {
     background-image: url("../imgs/for.png");
+}
+
+.container-and-esquerda {
+    background-image: url("../imgs/and.png");
+}
+
+.container-or-direita {
+    background-image: url("../imgs/or.png");
+}
+
+.container-not-esquerda {
+    background-image: url("../imgs/not.png");
 }
 
 .container {
