@@ -51,11 +51,11 @@ nav {
 /* cores de fundo */
 
 .container-implementacao, .container-variaveis {
-    background-color: rgb(5, 1, 22);
+    background-color: rgb(13, 4, 49);
 }
 
 .container-alert, .container-operacao {
-    background-color: rgb(12, 4, 46);
+    background-color: rgb(19, 7, 71);
 }
 
 .container-prompt, .container-logico {
