@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript Básico</title>
-    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
     <script src="../bootstrap/js/bootstrap.bundle.js" defer></script>
 </head>
 <body>
@@ -46,11 +46,11 @@
     <section class="container-pai container-vertical-centered container-introducao" id="container-introducao">
         <h1>Introdução ao JavaScript</h1>
         <p>
-            JavaScript é uma linguagem de script orientada a objetos e plataforma cruzada usada para tornar as páginas da Web interativas
-            (por exemplo, com animações complexas, botões clicáveis, menus pop-up etc.). Há também versões mais avançadas do lado do servidor
-            do JavaScript, como Node.js, que permitem adicionar mais funcionalidades a um site do que baixar arquivos (como colaboração em tempo
-            real entre vários computadores). Dentro de um ambiente de host (por exemplo, um navegador da Web), o JavaScript pode ser conectado aos
-            objetos de seu ambiente para fornecer controle programático sobre eles.
+            JavaScript é uma linguagem de programação amplamente utilizada em desenvolvimento web para tornar as páginas mais interativas e dinâmicas. Ao contrário de HTML (Hypertext Markup Language) e CSS (Cascading Style Sheets), que são usados para estruturar e estilizar páginas web, respectivamente, JavaScript adiciona funcionalidade e comportamento à página.
+
+Uma das principais características do JavaScript é sua capacidade de manipular o conteúdo HTML e CSS de uma página em tempo real. Isso significa que você pode criar scripts que respondem a eventos do usuário, como cliques de mouse, pressionamentos de teclas e rolagem da página, para alterar dinamicamente o conteúdo, o estilo e o comportamento da página.
+
+JavaScript é uma linguagem de programação de alto nível e de fácil aprendizado, adequada para iniciantes. Ela possui uma sintaxe simples e flexível, similar a outras linguagens populares como Java e C++, o que a torna acessível para quem está começando a programar.
         </p>
 
     </section>
@@ -64,24 +64,24 @@
                 </div>
                 <div class="container-var-direita container-descricao">
                     <h2>var</h2>
-                    <p>A palavra-chave var era a forma original de declarar variáveis em JavaScript, mas possui algumas peculiaridades em relação ao escopo.</p>
+                    <p>A palavra-chave var era a única forma de declarar variáveis em JavaScript antes da introdução do ES6 (ECMAScript 2015). Ela possui escopo de função e global, o que significa que uma variável declarada com var estará visível dentro da função em que foi declarada ou globalmente se estiver fora de uma função. No entanto, o escopo de bloco não é respeitado.</p>
                 </div>
             </section>
             <section id="let" class="container-let container">
                 <div class="container-let-esquerda container-descricao">
                     <h2>let</h2>
-                    <p>A palavra-chave let permite que você declare variáveis com escopo de bloco, o que significa que elas são limitadas ao bloco, instrução ou expressão na qual são usadas.</p>
+                    <p>A palavra-chave let foi introduzida no ES6 e é preferida para declarar variáveis em JavaScript atualmente. Ela tem escopo de bloco, o que significa que uma variável declarada com let está visível apenas dentro do bloco em que foi declarada.</p>
                 </div>
                 <div class="container-let-direita container-img">
                 </div>
             </section>
             <section id="const" class="container-const container">
-                <div class="container">
+                <div>
                     <div class="container-const-esquerda container-img">
                     </div>
                     <div class="container-const-direita container-descricao">
                         <h2>const</h2>
-                        <p>A palavra-chave const permite que você declare uma variável com um valor constante, que não pode ser alterado posteriormente.</p>
+                        <p>A palavra-chave const também foi introduzida no ES6 e é usada para declarar constantes, ou seja, variáveis cujo valor não pode ser alterado após a atribuição inicial. Ela também possui escopo de bloco.</p>
                     </div>
                 </div>
             </section>
@@ -95,11 +95,9 @@
         <p>Em JavaScript você pode realizar diversas operações matemáticas com variáveis.</p>
         <div>
             <section class="container">
-                <div class="container-descricao container-operacao-esquerda"></div>
-                <h2>
-                    Operacoes Matemáticas
-                </h2>
-                <p>+ => soma<br>- => subtração<br>* => multiplicação<br>/ => divisão<br>% => resto da divisao<br>++ => incremento<br>-- => decremento<br>** => potência</p>
+                <div class="container-descricao container-operacao-esquerda">
+                    <p>+ => soma<br>- => subtração<br>* => multiplicação<br>/ => divisão<br>% => resto da divisao<br>++ => incremento<br>-- => decremento<br>** => potência</p>
+                </div>
                 <div class="container-img container-operacao-direita">
                 </div>
             </section>
@@ -159,18 +157,27 @@
             <section id="while" class="container-while container">
                 <div class="container-while-esquerda container-descricao">
                     <h2>while</h2>
-                    <p>A declaração while cria um loop que executa uma instrução especificada enquanto a condição especificada for avaliada como verdadeira.</p>
+                    <p>AA estrutura de repetição while executa um bloco de código enquanto uma condição especificada for verdadeira.</p>
                 </div>
             
                 <div class="container-while-direita container-img">
                 </div>
             </section>
-            <section id="for" class="container-for container">
-                <div class="container-for-esquerda container-img">
+            <section id="do-while" class="container-do-while container">
+                <div class="container-do-while-esquerda container-img">
                 </div>
+                
+                <div class="container-do-while-direita container-descricao">
+                <h2>do while</h2>
+                <p>Similar ao while, o do...while executa um bloco de código, mas primeiro executa o bloco e depois verifica a condição de repetição. Isso garante que o bloco de código seja executado pelo menos uma vez, mesmo se a condição inicialmente for falsa.</p>
+                </div>
+            </section>
+            <section id="for" class="container-for container">
                 <div class="container-for-direita container-descricao">
                     <h2>for</h2>
-                    <p>A declaração for cria um loop que consiste em três expressões opcionais, dentro de parênteses e separadas por ponto e vírgula, seguidas por uma instrução a ser executada em loop.</p>
+                    <p>A estrutura de repetição for é usada quando se sabe exatamente quantas vezes o bloco de código deve ser executado. Ela possui uma inicialização, uma condição de repetição e uma expressão de incremento ou decremento. </p>
+                </div>
+                <div class="container-for-esquerda container-img">
                 </div>
             </section>
         </div>

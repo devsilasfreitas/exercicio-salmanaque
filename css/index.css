@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    color: white;
 }
 
 body {
@@ -71,14 +72,14 @@ nav {
 }
 
 .container-introducao {
-    padding: 20vh 20vw;
+    padding: 15vh 20vw;
     gap: 50px;
     line-height: 2rem;
     font-size: large;
     background-color: black;
-    height: 92.5vh;
+    min-height: 92.5vh;
+    color: white;
 }
-
 
 /* imagens */
 
@@ -154,6 +155,10 @@ nav {
     background-image: url("../imgs/while.png");
 }
 
+.container-do-while-esquerda {
+    background-image: url("../imgs/do-while.png");
+}
+
 .container-for-esquerda {
     background-image: url("../imgs/for.png");
 }
@@ -174,14 +179,16 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
+    padding: 40px 0;
 }
 
 .container-img {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    width: 50%;
-    min-height: 400px;
+    min-width: 500px;
+    min-height: 500px;
     border-radius: 30px;
 }
 
@@ -192,7 +199,7 @@ nav {
     align-items: center;
     text-align: center;
     gap: 20px;
-    max-width: 40%;
+    max-width: 500px;
     color: white;
 }
 

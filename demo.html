@@ -2,15 +2,13 @@
 <html lang="pt-BR">
 <body>
     <script>
-        // Vamos testar o operador NOT
+        // Vamos testar o do while
 
-        console.log(!true || false); // true
-        console.log(!true || true); // true
-        console.log(!(3 > 2 || 2 > 1)); // true
-        console.log(3 > 2 || 1 > 2); // true
-        console.log(!(100 > 1000) || 1 > 2); // false
-        console.log("ola" || !true); // true
-        console.log(-1 || 0); // false
+        let contador = 0;
+        do {
+            console.log(contador);
+            contador++;
+        } while (contador < 5); // esse loop irá retornar de 0 a 4
     </script>
 </body>
 </html>
